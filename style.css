@@ -1,0 +1,66 @@
+
+p {
+    padding-top: 60px;
+    color: #002f74;
+    font-size: 30px;
+
+}
+
+
+.span {
+    background-color: #2861a8;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 24px;
+    color: white;
+
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+
+
+.logo {
+    font-size: 30px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #b4cded;
+}
+
+body {
+    margin: 0;
+    padding-top: 30px;
+    background-image: url("objects/911carrera.jpeg");
+    background-size: contain;
+    background-attachment: fixed;
+}
